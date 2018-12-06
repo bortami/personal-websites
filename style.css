@@ -1,0 +1,43 @@
+body{
+    background-color: #494949;
+    color: #f4c20c;
+}
+header {
+    background-image: url("headerbg.png"); 
+    background-color: #cccccc; 
+    height: 100vh; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    width: 100vw;
+  }
+h1{
+    font-family: 'Charmonman', cursive;
+    text-align: center;
+    font-size: 2em;
+}
+h2{
+    font-family: 'Charmonman', cursive;
+    text-align: center;
+}
+h3{
+    font-family: 'Charmonman', cursive;
+    text-align: center;
+}
+p{
+    font-family: 'Roboto', sans-serif;
+}
+ul{
+    font-family: 'Roboto', sans-serif;
+}
+li{
+    font-family: 'Roboto', sans-serif;
+}
+article{
+    font-family: 'Roboto', sans-serif;
+}
+aside{
+    width: 35vw;
+}
+footer{
+    text-align: center;
+}
