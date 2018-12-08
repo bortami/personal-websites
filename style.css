@@ -4,40 +4,61 @@ body{
 }
 header {
     background-image: url("headerbg.png"); 
-    background-color: #cccccc; 
-    height: 100vh; 
+    background-color: #c9c9c9; 
     background-position: center; 
     background-repeat: no-repeat; 
+    background-size: cover;
+    height: 100vh;
     width: 100vw;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
   }
-h1{
+.splash{
+   width: 30vw;
+   padding: 4rem;
+   justify-content: center;
+   background-color:rgba(147, 59, 150, 0.63);
+   }
+  h1, h2, h3{
     font-family: 'Charmonman', cursive;
     text-align: center;
+}
+h4{
+    font-family: 'Charmonman', cursive;
+}
+.name-title{
     font-size: 2em;
 }
-h2{
-    font-family: 'Charmonman', cursive;
-    text-align: center;
-}
-h3{
-    font-family: 'Charmonman', cursive;
-    text-align: center;
-}
-p{
-    font-family: 'Roboto', sans-serif;
-}
-ul{
-    font-family: 'Roboto', sans-serif;
-}
-li{
+p, ul, li{
     font-family: 'Roboto', sans-serif;
 }
 article{
     font-family: 'Roboto', sans-serif;
+    margin-top: 2rem;
 }
-aside{
+.main-body{
+    display: flex;
+    padding: 2rem;
+    justify-content: space-around;
+    padding: 3vw;
+    flex-wrap: wrap;
+}
+.left-column, .right-column{
+    padding: 1rem; 
     width: 35vw;
+}
+.myface{
+    display: block;
+    width: 25vw;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25%;
 }
 footer{
     text-align: center;
+    padding-top: 15vh;
+    height: 20vw;
 }
