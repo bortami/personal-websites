@@ -1,6 +1,6 @@
 body{
-    background-color: #494949;
-    color: #f4c20c;
+    background-color: #ffffff;
+    color: #353536;
 }
 header {
     background-image: url("headerbg.png"); 
@@ -20,14 +20,15 @@ header {
    width: 30vw;
    padding: 4rem;
    justify-content: center;
-   background-color:rgba(147, 59, 150, 0.63);
+   background-color:#c9c9c9 transparent;
+   
    }
   h1, h2, h3{
-    font-family: 'Charmonman', cursive;
+    font-family: 'Acme', cursive;
     text-align: center;
 }
 h4{
-    font-family: 'Charmonman', cursive;
+    font-family: 'Acme', cursive;
 }
 .name-title{
     font-size: 2em;
